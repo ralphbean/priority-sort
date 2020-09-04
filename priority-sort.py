@@ -31,6 +31,6 @@ if __name__ == '__main__':
 
     print()
     print("All done!")
-    print("Writing sorted items to output.txt")
+    print("Writing sorted items to output.txt (lowest to highest)")
     with open('output.txt', 'w') as f:
-        f.write("\n".join(items))
+        f.write("\n".join(items) + "\n")
